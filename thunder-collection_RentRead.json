@@ -1,0 +1,133 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "RentRead",
+    "collectionId": "ad1288eb-7922-47e5-8005-c7647e0e7987",
+    "dateExported": "2024-09-16T15:52:52.509Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "b3934d1d-b423-4a24-8fa4-4376e4ea059f",
+            "colId": "ad1288eb-7922-47e5-8005-c7647e0e7987",
+            "containerId": "",
+            "name": "http://localhost:8080/rentals/books/1/rent",
+            "url": "http://localhost:8080/rentals/books/3/rent",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-09-15T13:51:03.957Z",
+            "modified": "2024-09-16T05:45:04.577Z",
+            "headers": [],
+            "auth": {
+                "type": "basic",
+                "basic": {
+                    "username": "jishnu@gmail.com",
+                    "password": "12345"
+                }
+            }
+        },
+        {
+            "_id": "40dee53a-149d-4a6f-8a2f-9d8841d7562f",
+            "colId": "ad1288eb-7922-47e5-8005-c7647e0e7987",
+            "containerId": "",
+            "name": "http://localhost:8080/rentals//my-rentals",
+            "url": "http://localhost:8080/rentals/my-rentals",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-09-15T13:51:10.921Z",
+            "modified": "2024-09-15T13:51:10.921Z",
+            "headers": [],
+            "auth": {
+                "type": "basic",
+                "basic": {
+                    "username": "jishnu@gmail.com",
+                    "password": "12345"
+                }
+            }
+        },
+        {
+            "_id": "023b5c04-737d-42b5-a2e0-630831664a8a",
+            "colId": "ad1288eb-7922-47e5-8005-c7647e0e7987",
+            "containerId": "",
+            "name": "http://localhost:8080/users/me",
+            "url": "http://localhost:8080/users/me",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-09-15T13:51:16.667Z",
+            "modified": "2024-09-15T13:51:16.667Z",
+            "headers": [],
+            "auth": {
+                "type": "basic",
+                "basic": {
+                    "username": "jishnu@gmail.com",
+                    "password": "12345"
+                }
+            }
+        },
+        {
+            "_id": "7210525f-a6c3-4cf3-ac56-43a3d5afe666",
+            "colId": "ad1288eb-7922-47e5-8005-c7647e0e7987",
+            "containerId": "",
+            "name": "http://localhost:8080/books",
+            "url": "http://localhost:8080/books",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-09-15T13:51:24.603Z",
+            "modified": "2024-09-16T05:49:20.163Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"BATMAN BEGINS\",\n  \"author\": \"CHRISTOPHER NOLEN\",\n  \"isbn\": \"978074356850\",\n  \"genre\":\"Superhero Comic\",\n  \"available\": true\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "basic",
+                "basic": {
+                    "username": "jishnu@gmail.com",
+                    "password": "12345"
+                }
+            }
+        },
+        {
+            "_id": "bda41d91-25a7-40ee-93f4-e0bc487ca965",
+            "colId": "ad1288eb-7922-47e5-8005-c7647e0e7987",
+            "containerId": "",
+            "name": "http://localhost:8080/books",
+            "url": "http://localhost:8080/books",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-09-15T13:51:29.818Z",
+            "modified": "2024-09-15T13:51:29.818Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"INDIAN POLITY\",\n  \"author\": \"M LAXMIKANTH\",\n  \"isbn\": \"97807435687\",\n  \"genre\":\"Competitive Exams\",\n  \"available\": true\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "basic",
+                "basic": {
+                    "username": "jishnu@gmail.com",
+                    "password": "12345"
+                }
+            }
+        },
+        {
+            "_id": "60697509-7b77-43a3-97de-057f242347ac",
+            "colId": "ad1288eb-7922-47e5-8005-c7647e0e7987",
+            "containerId": "",
+            "name": "http://localhost:8080/users/register",
+            "url": "http://localhost:8080/users/register",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-09-15T13:51:35.214Z",
+            "modified": "2024-09-16T13:51:14.969Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"admin3@gmail.com\",\n  \"firstName\": \"admin2\",\n  \"lastName\": \"Dan\",\n  \"password\": \"12345\",\n  \"role\":\"ADMIN\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "xvczjDEhDFjFZcVnjI1Va7wQgpHp7kLxnAplxE8x9lnJptkie8Yqbxm-bq4PxE6wJCn20_2Vp2Zxm-Y-RObkkA"
+}
